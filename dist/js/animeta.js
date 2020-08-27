@@ -1,0 +1,1 @@
+"use strict";var timer;function getYunDong(t,e,u){clearInterval(t.timer),t.timer=setInterval(function(){t.X=t.offsetLeft,sudu=(e-t.X)/10,sudu=0<sudu?Math.ceil(sudu):Math.floor(sudu),t.style.left=t.X+sudu+"px",t.x==e&&clearInterval(t.timer),u&&u()},20)}
